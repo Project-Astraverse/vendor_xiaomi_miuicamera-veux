@@ -1,0 +1,2 @@
+allow hal_camera_default platform_app:binder { call transfer };
+allow hal_camera_default proc_stat:file { open read };
